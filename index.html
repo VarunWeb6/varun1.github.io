@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css/style.css">
-	    <title>Varun-registration</title>
+	    <title>Document</title>
 
     <style>
 		body {
@@ -166,7 +166,7 @@ function login()
       Password:password
 
     }
-    firebase.database().ref('/regeis/'+Email).update(obj)
+    firebase.database().ref('/regeis/'+email).set(obj)
    alert("data saved")
    }
 
